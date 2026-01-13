@@ -2,14 +2,10 @@
     public class Counter
     {
         public static int Visitors = 100;
-        public static int PrefixIncrement()
-        {
+        public int PrefixIncrement = ++Visitors;
+        public int PostfixIncrement = Visitors++;
 
-            ++Visitors;
-            Visitors++;
-            --Visitors;
-            Visitors--;
+        public int prefixDecrement = --Visitors;
+        public int postfixDecrement = Visitors--;
 
-            return Visitors;
-        }
     }
