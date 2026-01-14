@@ -7,8 +7,9 @@
         
         public int PostfixIncrement = Visitors++;
 
-        public int prefixDecrement = --Visitors;
+        public int PrefixDecrement = --Visitors;
         
-        public int postfixDecrement = Visitors--;
+        public int PostfixDecrement = Visitors--;
 
     }
+
